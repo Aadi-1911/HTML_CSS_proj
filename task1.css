@@ -1,0 +1,471 @@
+
+
+:root{
+    --yellowcircle:#f7af24;
+    --blue:rgb(92,102,200);
+    --peach:rgb(253,247,236);
+}
+.upper-nav img{
+    width:170px ;
+    height: 40px;
+    padding-left: 20px;
+}
+.upper-nav{
+    background-color: rgb(38, 38,38);
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.upper-nav button{  
+    width: 80px;
+    height: 30px;
+    margin-right: 20px;
+    background-color: rgb(141,178,82);
+    color: white;
+    border: 1px solid rgb(141,178,82);
+    border-radius: 5px;
+}
+.upper-nav button:hover{
+    cursor: pointer;
+    background-color: rgb(126, 162, 68);
+}
+.nav-button button:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    
+}
+*{
+    margin: 0;padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+    height: 130px;
+    border-bottom: 2px solid black;
+}
+.lower-out{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lower-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    width: 85%;
+    
+
+}
+.nav-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+.nav-button button{
+    background-color: rgb(237,177,71);
+    color: black;
+    height: 50px;
+    width: 150px;
+    font-size: 16px;
+    transition: 0.4s ease all;
+}
+.pg1{
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+    flex-direction: column;
+    height: 700px;
+
+}
+.pg1-inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+}
+.pg1-content{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 50%;
+    gap: 35px;
+}
+.img-outer{
+    height: 600px;
+    width: 50%;
+    
+}
+.pg1-content h1{
+    font-size: 60px;
+}
+.pg1-content p{
+    font-size: 20px;
+    color: rgb(85,85,85);
+}
+.pg1-content button{
+    height: 40px;
+    width: 120px;
+    background-color: rgb(92,102,200);
+    color: white;
+    border: 1px solid rgb(92,102,200);
+    font-size: 16px;
+    transition: 0.4s ease all;
+}
+.pg1-content button:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+/*end of page 1*/
+.pg2{
+    background-color:rgb(253,247,236) ;
+    height: 1200px;
+}
+.pg2-inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.pg2-content{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 35px;
+    width: 85%;
+    margin-top: 120px;
+    
+    
+}
+.card-container{
+    display: flex;
+    
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+.pg2-cards{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    height: 350px;
+    width: 350px;
+    border: 2px solid black;
+    background-color: white;
+    padding: 15px;
+}
+.pg2-cards h1{
+    font-size: 60px;
+}
+.pg2-cards p{
+    color: rgb(85,85,85);
+    line-height: 18px;
+}
+.inner-card{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding: 20px;
+    gap: 30px;
+}
+.circle{
+    border-radius: 50%;
+    background-color: var(--yellowcircle);
+    height: 65px;
+    width: 65px;
+}
+.tilted{
+    color: var(--blue);
+    border: 1px solid var(--blue);
+    height: 35px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    transform:rotate(-20deg) ;
+    margin-bottom: 5px;
+}
+.pg2-content h1{
+    font-size: 60px;
+}
+/*end of page 2*/
+.pg3{
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.pg3-inner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 35px;
+    width: 85%;
+    
+}   
+.content-left h2{
+    font-size: 32px;
+}
+
+.content-left{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    
+}
+.pg3-topleft{
+    width: 50%;
+    
+}
+.pg3-topleft h1{
+    font-size: 60px;
+    padding-top: 20px;
+}
+.pg3-topleft p{
+    color: rgb(85,85,85);
+    padding-top:35px ;
+    line-height: 25px;
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+.skill-icon{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: var(--blue);
+    margin: 0 10px;
+}
+.skills{
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    
+}
+.skills-card{
+    display: flex;
+    padding: 15px;
+    align-items: center;
+    height: 50px;
+    width: 216px;
+    border: 2px solid black;
+}
+
+.content-right{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+.Experience-box{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 25px;
+}
+.Experience-box ul{
+    display: flex;
+    flex-direction: column;
+}
+.Experience-box li{
+    display: flex;
+    border-top: 2px solid black;
+    
+    
+}
+.exp-right{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-left: 100px;
+    margin-top: 20px;
+}
+.Experience-box h6{
+    font-size: 15px;
+    margin-top: 20px;
+}
+.Experience-box h5{
+    font-size: 18px;
+}
+.Experience-box span{
+    font-size: 14px;
+    color: rgb(85,85,85);
+}
+.pg3-bottomright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.pg3-bottomright img{
+    border-radius: 50%;
+   margin-top: 50px;
+   background-color: var(--peach);
+
+   
+}
+.pg3-bottomright button{
+    height: 40px;
+    width: 120px;
+    background-color: var(--yellowcircle);
+    color: black;
+    border: 2px solid black;
+    font-size: 16px;
+    margin-top: 20px;
+    transition: 0.4s ease all;
+}
+.hoverme:hover{
+    
+    box-shadow: 5px 5px black;
+    transition: 0.5s ease all;
+}
+.hoverme{
+    transition: 0.5s ease all;
+}
+.pg3-bottomright button:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+.pg4{
+    background-color:rgb(253,247,236) ;
+    height: 1100px;
+}
+.pg4-inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pg4-content{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 35px;
+    width: 85%;
+    margin-top: 120px;
+}
+.pg4-cards{
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    width: 375px;
+    border: 2px solid black;
+    background-color: white;
+    
+
+}
+.pg4card-container{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+.pg4inner-card{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    height: 250px;
+    border-bottom: 2px solid black;
+}
+.pg4-content h1{
+    font-size: 55px;
+}
+.pg4-cards h1{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.pg4-cards p{
+    color: rgb(85,85,85);
+    line-height: 18px;
+}
+.pg4innercard-content{
+    padding: 15px;
+}
+.pg4inner-card img{
+    height: 100%;
+}
+.pg4ic{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pg4-icon{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: var(--blue);
+    margin: 0 10px;
+}
+.pg5{
+    background-color:white ;
+    height: 800px;
+}
+.pg5-inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pg5-content{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 35px;
+    width: 85%;
+    margin-top: 120px;
+}
+.pg5card-container{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+.pg5-cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    width: 375px;
+    border: 2px solid black;
+    background-color: white;
+   
+    
+    
+}
+.pg5 h1{
+    font-size: 55px;
+}
+.pg5 img{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+.pg5-cards p{
+    width: 80%;
+    line-height: 20px;
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 10px;
+    color: rgb(85,85,85);
+}
+.pg5-cards span{
+    color: rgb(85,85,85);
+    margin-top: 5px;
+}
